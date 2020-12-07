@@ -22,5 +22,16 @@
             <div><a href="#">www.freecodecamp.org</a></div>
         </div>
     </div>
+    <div class="row pt-4">
+        <div class="col-4">
+            <img src="https://picsum.photos/id/10/293" class="w-100">
+        </div>
+        <div class="col-4">
+            <img src="https://picsum.photos/id/20/293 " class="w-100">
+        </div>
+        <div class="col-4">
+            <img src="https://picsum.photos/id/30/293" class="w-100">
+        </div>
+    </div>
 </div>
 @endsection
