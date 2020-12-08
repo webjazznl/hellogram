@@ -14,6 +14,6 @@ class ProfilesController extends Controller
      */
     public function show(User $user)
     {
-        return view('home', ['username' => $user->username,]);
+        return view('home', ['user' => $user,]);
     }
 }
