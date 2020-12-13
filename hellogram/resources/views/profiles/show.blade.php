@@ -8,7 +8,7 @@
             <div class="pt-5">
                 <div class="d-flex justify-content-between align-items-baseline">
                     <h1>{{$user->name}}</h1>
-                    <a href="#">Add New Post</a>
+                    <a href="{{ route('post.create')}}">Add New Post</a>
                 </div>
             </div>
             <div class="d-flex">
